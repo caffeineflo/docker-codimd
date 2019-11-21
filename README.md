@@ -114,7 +114,7 @@ services:
     volumes:
       - <path to config>:/config
     environment:
-      - DB_HOST=mariadb
+      - DB_HOST=codimd_mariadb
       - DB_USER=codimd
       - DB_PASS=<secret password>
       - DB_NAME=codimd
